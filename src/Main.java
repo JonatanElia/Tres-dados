@@ -4,7 +4,7 @@ public class Main {
         Random aleatorio = new Random();
         int primerDado=0,segundoDado=0,tercerDado=0;
 
-        for (int i = 1; i <= 1; i++) {
+        for (int i = 1; i <= 20; i++) {
             System.out.println("Ronda "+i);
             primerDado += aleatorio.nextInt((6-1)+1)+1;
             System.out.println("Acumulado primer dado "+primerDado);
