@@ -27,7 +27,7 @@ public class Main {
                 System.out.println("Primer dado es igual a tercer dado");
             }
         }
-        if (primerDado>segundoDado || primerDado>tercerDado && primerDado==tercerDado && primerDado==tercerDado) {
+        if (primerDado>segundoDado || primerDado>tercerDado ) {
             if (primerDado>segundoDado && primerDado>tercerDado){
                 System.out.println("Primer dado esta en la 1° posicion");
             }
@@ -37,8 +37,8 @@ public class Main {
         }else if (primerDado<segundoDado && primerDado<tercerDado) {
             System.out.println("Primer dado esta en la 3° posicion");
         }
-        if (segundoDado>tercerDado || segundoDado>tercerDado&& segundoDado==primerDado && segundoDado==tercerDado) {
-            if (segundoDado>tercerDado && segundoDado>tercerDado) {
+        if (segundoDado>primerDado || segundoDado>tercerDado ) {
+            if (segundoDado>primerDado && segundoDado>tercerDado) {
                 System.out.println("Segundo dado esta en la 1° posicion");
             }
             else {
@@ -47,7 +47,7 @@ public class Main {
         }else  if (segundoDado<primerDado && segundoDado<tercerDado) {
             System.out.println("Segundo dado esta en la 3° posicion");
         }
-        if (tercerDado>primerDado || tercerDado>segundoDado && tercerDado==primerDado && tercerDado==segundoDado) {
+        if (tercerDado>primerDado || tercerDado>segundoDado ) {
             if (tercerDado>primerDado && tercerDado>segundoDado){
                 System.out.println("Tercer dado esta en la 1° posicion");
             }
